@@ -1,0 +1,157 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    
+}
+
+header {
+    background-color: #367878;
+    color: white;
+    padding: 10px 0;
+    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: rgb(83, 155, 100);
+    text-decoration: underline;
+    font-weight: bolder;
+    
+    
+}
+.scrolled {
+    background-color: #0e0e0e !important;
+}
+
+section {
+    max-width: 100%;
+    margin: 10px;
+    background-color: rgb(129, 129, 129);
+    text-align:left;
+    
+}
+
+#home .intro {
+    text-align: left;
+    padding-top: 180px; 
+    padding-left: 50px;
+    
+    
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url("WhatsApp Image 2024-07-26 at 13.33.19_b7d8dc95.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    
+}
+.profile{
+    
+    padding-top: 80px;
+    padding-left: 50px;
+    border-radius: 20%;
+    
+    
+}
+#about{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin:  0px;
+    gap: 100px;
+
+}
+
+button{
+    background-color: #68e7c9;
+    border: 2px solid #68e7c9;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color:rgb(1, 1, 1);
+    box-shadow: 3px 3px 4px rgba(59, 209, 199, 0.823);
+}
+#skills{
+    background-color: rgb(253, 253, 253);
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.skill-heading{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: rgb(5, 233, 157);
+    padding-left: 43%;
+}
+
+
+.skill-blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 210px);
+    gap: 6px;
+    margin: 20px auto;
+    justify-content: center;
+}
+.blocks {
+    padding: 100px auto;
+    height: 150px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: rgb(80, 198, 162);
+    border-radius: 10%;
+    color: #e2edd9;
+    
+}
+
+#contact{
+    background-color: rgb(6, 155, 185);
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-inf{
+    padding-left: 50px;
+}
+footer {
+    text-align: center;
+    padding: 1px 0;
+    background-color: #333;
+    color: white;
+}
+
